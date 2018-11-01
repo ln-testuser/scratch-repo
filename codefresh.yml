@@ -1,0 +1,8 @@
+version: '1.0'
+steps:
+  x:
+    image: alpine:latest
+    commands:
+      - echo "from PR"
+      - env
+      - cat README.md
