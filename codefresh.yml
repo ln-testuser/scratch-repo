@@ -3,6 +3,6 @@ steps:
   x:
     image: alpine:latest
     commands:
-      - echo "from PR"
+      - echo "THIS IS A TEST"
       - env
       - cat README.md
